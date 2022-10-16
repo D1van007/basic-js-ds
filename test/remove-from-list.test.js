@@ -21,6 +21,8 @@ function convertArrayToList(arr) {
 describe('Remove from list', () => {
   it.optional('should return the list without values equal to k', () => {
     const initial = convertArrayToList([3, 1, 2, 3, 4, 5]);
+    console.log(initial)
+    debugger;
     const expected = convertArrayToList([1, 2, 4, 5]);
     assert.deepEqual(removeKFromList(initial, 3), expected);
   });
