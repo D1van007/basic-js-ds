@@ -35,9 +35,9 @@ return  stack.push(element)
 
   peek() {
 
- let popped = stack.pop()
- stack.push(popped)
- return popped
+//  let popped = stack.pop()
+//  stack.push(popped)
+ return stack[stack.length-1]
     // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
 
